@@ -12,6 +12,7 @@ find_package(VTK REQUIRED)
 include(${VTK_USE_FILE})
 
 set (vtk_tcl_thread_util_SRCS
+	local_vtkTclUtil.cc
 	vtk_tcl_thread_util.cc
 	vtk_tcl_thread_util.h
 	vtk_tcl_thread_util_Init.c
