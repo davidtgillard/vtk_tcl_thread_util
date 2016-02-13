@@ -9,3 +9,5 @@ libltdl
 config.guess
 config.sub
 ltmain.sh
+CMakeCache.txt
+CMakeFiles
